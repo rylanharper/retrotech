@@ -1,0 +1,43 @@
+/* Grids */
+@utility mobile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'stack';
+
+  & > * {
+    grid-area: stack;
+  }
+}
+
+/* Flex menu items */
+@utility flex-fill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@utility flex-link-fill {
+  &,
+  & > a,
+  & > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+/* Scroll */
+@utility scroll-locked {
+  overflow: clip;
+}
+
+@utility scroll-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+# Node
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode
+
+# Env
+.env
+.env.*
+!.env.example

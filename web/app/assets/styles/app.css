@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@import './type.css';
+@import './utils.css';
+
+:root {
+  --body-text-color: #000000;
+  --body-background-color: #ffffff;
+  --body-selection-color: #eeeeee;
+  --header-height: 40px;
+}
+
+@theme {
+  --font-sans: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: var(--body-text-color);
+  background-color: var(--body-background-color);
+  overflow-x: hidden;
+}
+
+::selection {
+  color: var(--body-text-color);
+  background: var(--body-selection-color);
+}
+
+a,
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+a,
+span,
+button {
+  text-transform: inherit;
+}
+
+svg {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
