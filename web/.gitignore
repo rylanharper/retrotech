@@ -1,28 +1,7 @@
 # Nuxt
-.output
-.data
 .nuxt
+.data
 .nitro
 .cache
+.output
 .wrangler
-
-# Generated
-dist
-
-# Node
-node_modules
-
-# Logs
-logs
-*.log
-
-# Misc
-.DS_Store
-.fleet
-.idea
-.vscode
-
-# Env
-.env
-.env.*
-!.env.example
