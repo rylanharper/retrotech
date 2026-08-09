@@ -1,5 +1,5 @@
 {
-  "name": "retrotech",
+  "name": "headless",
   "private": true,
   "scripts": {
     "build": "nuxt build",

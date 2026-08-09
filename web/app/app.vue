@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (title) => title
-    ? `${title} · Retrotech`
-    : 'Retrotech: A Nuxt Shopify Template',
+    ? `${title} · Headless`
+    : 'Headless: A Nuxt Sanity + Shopify Template',
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1' },
     { key: 'theme-color', name: 'theme-color', content: '#181717' },
